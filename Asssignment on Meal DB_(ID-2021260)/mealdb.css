@@ -1,0 +1,47 @@
+/*****************************
+Media Queries for TABs:
+******************************/
+
+@media only screen and (max-width: 1024px) and (min-width:768px)  {
+    
+    .main-container{
+        grid-template-columns: 280px 280px;
+    }
+
+    .navclass{
+        grid-template-columns: 280px 280px;
+
+    }
+
+    .footerclass{
+        grid-template-columns: 280px;
+
+    }
+
+
+}
+/*****************************
+Media Queries for MOBILEs:
+******************************/
+@media only screen and (max-width: 896px){
+    
+    .main-container{
+        grid-template-columns: 280px;
+    }
+
+    .navclass{
+        grid-template-columns: 280px;
+
+    }
+    .footerclass{
+        grid-template-columns: 280px;
+
+    }
+}
+body {
+    background: url('http://www.metmuseum.org/-/media/images/visit/food-drink/food-and-drink/the-balcony-lounge-floor-2.jpg?sc_lang=en')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
